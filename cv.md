@@ -5,3 +5,4 @@
     + Aims and priorities
     + Experience
 * Education
+* knowledge of English
