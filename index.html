@@ -1,1 +1,129 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artem Orlov CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a class="nav_link" href="#aboutme">About Me</a></li>
+                    <li class="nav_item"><a class="nav_link" href="#aboutme">Contacts</a></li>
+                    <li class="nav_item"><a class="nav_link" href="#skills">Skills</a></li>
+                    <li class="nav_item"><a class="nav_link" href="#education">Education</a></li>
+                    <li class="nav_item"><a class="nav_link" href="#english">English</a></li>  
+                    <li class="nav_item"><a class="nav_link" href="#codesample">Code Sample</a></li>  
+                    <li class="nav_item"><a class="nav_link" href="#projects">Projects</a></li>        
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container main_container">
+
+            <section class="section" id="profile">
+                <img src="cv_image.png" alt="CV Image" width="250">
+                <h1>Artem Orlov</h1>
+                <p>junior frontend developer</p>
+            </section>
+
+            <section class="section" id="contacts">
+                <h2>Contacts:</h2>
+                <ul>
+                    <li>github: metakombinator</li>
+                    <li>discord: Artem (@metakombinator)</li>
+                    <li>e-mail: artemy.orlov@gmail.com</li>
+                </ul>
+            </section>
+
+            <section class="section" id="aboutme">
+                <h2>About Me</h2>
+                <p>I am an aspiring junior front-end developer with good technical skill.
+                    Now I am trying to expand and deepen my knowledge and skills in the area of front-end development in order to 
+                    became a professional front-end developer.  </p>
+            </section>
+    
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                </ul>
+            </section>
+
+            <section class="section" id="education">
+                <h2>Education</h2>
+                <p>Nizhny Novgorod Technical University 2020</p>
+            </section>
+
+            <section class="section" id="codesample">
+                <h2>Code Sample</h2>
+
+                <pre>
+                    <code>
+const findVowels = str => {
+    let count = 0;
+    const vowels = ['a', 'e', 'i', 'o', 'u'];
+    for(let char of str.toLowerCase()) {
+        if(vowels.includes(char)) {
+            count++;
+        }
+    }
+    return count;
+}
+
+console.log(findVowels("readable"))
+                    </code>
+                </pre>
+
+            </section>
+    
+                
+            <section class="section" id="english" >
+                <h2>English</h2>
+                <p>estimated level: C1</p>
+            </section>
+
+
+            <section class="section" id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li><a href="https://github.com/metakombinator/rsschool-cv">RSSchool CV Project</a></li>
+                </ul>
+
+
+            </section>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_year">2022</div>
+        
+            <div class="footer_github">
+                <a href="https://github.com/metakombinator">github: metakombinator</a>
+            </div>
+    
+            <div class="footer__schoollink">
+                <a href="https://rs.school/js/"><img width=200 src="https://rs.school/images/rs_school_js.svg" alt="rs_school logo"></a> 
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
